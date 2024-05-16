@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.controller;
+package com.baicai.controller;
 
 import java.time.LocalDateTime;
 
@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tencent.wxcloudrun.config.ApiResponse;
-import com.tencent.wxcloudrun.dto.TestResponse;
+import com.baicai.config.ApiResponse;
+import com.baicai.dto.TestResponse;
 
 @RestController
 public class TestController {

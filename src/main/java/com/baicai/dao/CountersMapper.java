@@ -1,8 +1,10 @@
-package com.tencent.wxcloudrun.dao;
+package com.baicai.dao;
 
-import com.tencent.wxcloudrun.model.Counter;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
+import com.baicai.model.Counter;
+
 import java.util.List;
 
 @Mapper

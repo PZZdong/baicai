@@ -8,11 +8,11 @@
         <version>2.5.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tencent</groupId>
-    <artifactId>springboot-wxcloudrun</artifactId>
+    <groupId>com.baicai</groupId>
+    <artifactId>baicai-backend</artifactId>
     <version>1.0</version>
-    <name>springboot-wxcloudrun</name>
-    <description>Demo project for Spring Boot</description>
+    <name>baicai-backend</name>
+    <description>Baicai project backend</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -26,6 +26,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+		    <groupId>com.baomidou</groupId>
+		    <artifactId>mybatis-plus-boot-starter</artifactId>
+		    <version>3.5.5</version>
+		</dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>

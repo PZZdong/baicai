@@ -1,8 +1,9 @@
-package com.tencent.wxcloudrun.service.impl;
+package com.baicai.service.impl;
 
-import com.tencent.wxcloudrun.dao.CountersMapper;
-import com.tencent.wxcloudrun.model.Counter;
-import com.tencent.wxcloudrun.service.CounterService;
+import com.baicai.dao.CountersMapper;
+import com.baicai.model.Counter;
+import com.baicai.service.CounterService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

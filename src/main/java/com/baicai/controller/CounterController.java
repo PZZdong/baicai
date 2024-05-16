@@ -1,11 +1,13 @@
-package com.tencent.wxcloudrun.controller;
+package com.baicai.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.tencent.wxcloudrun.config.ApiResponse;
-import com.tencent.wxcloudrun.dto.CounterRequest;
-import com.tencent.wxcloudrun.model.Counter;
-import com.tencent.wxcloudrun.service.CounterService;
+
+import com.baicai.config.ApiResponse;
+import com.baicai.dto.CounterRequest;
+import com.baicai.model.Counter;
+import com.baicai.service.CounterService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

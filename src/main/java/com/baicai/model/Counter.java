@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.model;
+package com.baicai.model;
 
 import lombok.Data;
 
